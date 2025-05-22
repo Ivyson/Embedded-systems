@@ -15,10 +15,13 @@ While brushless motors are generally more efficient due to the absence of brush 
 
 Servo motors are designed for precise positioning and control. They can rotate to a specific angle and hold that position, making them essential in applications requiring accurate movement. Servo motors often utilize feedback mechanisms, such as encoders, to track their position and ensure they reach the desired angle. For example, servo motors are commonly used in remote control cars for steering control, allowing for precise adjustments in the car's direction. In the context of flight systems, servo motors play a crucial role in controlling various components, such as the ailerons and elevators, enabling accurate adjustments and maintaining stability.
 
+## H - bridge circuitry and functionality
+Arduino circ
 # First session
 
 We will be using DC Motors for this Session!
 - Website explaining these things: [Tutorial Sport](https://www.tutorialspoint.com/arduino/arduino_dc_motor.htm)
+
 
 1. Example 1:
 - Using a Power supply, turn the DC motor on, increase and decrease the voltage supplied to the motor to see how it varies :[Example 1, 6 May](https://www.tinkercad.com/things/5n4jeEqKn3t-dc-motor?sharecode=rWgewUc1xL_kv-C8PLbYTRNrWy92RktgQQvnPj8LRHI)
@@ -42,6 +45,9 @@ of the motor.[Example 4](https://www.tinkercad.com/things/dOM6MTEFQai-example-4-
 - Replicate what was done in Example 7 but now have 2 DC Motors: [Example 8](https://www.tinkercad.com/things/fjGeJIgEqkK-example-8?sharecode=wPqFhgQbVfn6luJw6zQBo-MRoZ50qhvMQFQ4LKdr6OU)
 9. Example 9:
 - Make a rotation effect using a LEDs. Using the previous schematic for previous examples, just the wiring should not be attached to the motors but the resistors: [Example 9](https://www.tinkercad.com/things/0YqLZR7IFR0-example-9?sharecode=DMMBWM4Tx6OT4wkcu0GDsFE5wLsxHzDUF_HAmVbCn2U)
+
+10. Extras
+- The Variances that he lightly mentioned were, Use a potentiometer to increase the speed of the motor, if possible, have a design where you implement this, this could be extracted and re-implemented from example 3.
 
 
 ## Scope
